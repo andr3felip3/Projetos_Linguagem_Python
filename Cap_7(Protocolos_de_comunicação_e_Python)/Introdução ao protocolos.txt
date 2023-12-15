@@ -1,0 +1,19 @@
+#----------------  PROTOCOLOS ----------------#
+
+# sao regras que definem a comunicacao entre maquinas.
+
+-IP(protocolo de internet): seria o endereço do local pra onde ta indo ou saindo um pacote.
+-- seria o endereço de uma maquina dentro da rede.
+
+-TCP/UDP: trabalha com transporte(envio) de pacotes(arquivos pequenos em bytes)
+-- tcp: necessita da confirmação de recebimento do pacote(mensagem)
+-- udp: não necessita da confirmação de recebimento do pacote(mensagem)
+
+-FTP: trabalha com arquivos do usuario(grandes).
+
+-HTTP: trabalha com arquivos html(geram paginas)
+-- os quais são renderizados e exibidos pelo navegador
+
+-SMTP: trabalha com emails.
+
+-Socket: Biblioteca que trabalha com esses protocolos dentro de uma linguagem de programacao .

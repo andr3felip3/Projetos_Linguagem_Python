@@ -1,0 +1,38 @@
+                                             #Resumo do capitulo 1
+
+                    #Introdução a linguagem Python
+
+*Aplicacções da linguagem Python
+- Automatizar a documentação de equipamentos em uma rede.
+- Automatizar a configuração desses equipamentos.
+- Gerenciar os logs de equipamentos para assim ter informações importantes.
+- Criar programas capazes de testar as configurações da rede.
+- Gerenciar informações de equipamentos IOT por meio de porta serial.
+- Direcionar patchs de atualização/correção de acordo com o SO de forma autônoma.
+
+*História do Python
+- Foi criado em 1991 pelo irlândes Guido van Rossum.
+- Tinha o intuito de ser fácil de se entender muito prática.
+- Não depende de gerenciamento de memória ou recursos pois a pórpria linguagem se ecarrega.
+
+*Diferença entre Arquiteturas na linguagem de programação(Compilada/Interpretada/Hibrida)
+- Arquitetura Compilada: é quando uma linguagem de programação (LP), após gerar seu arquivo fonte(conjunto de instruções), necessita de um processo compilação(conversão) do arquivo, que geralmente está dentro da IDE, e transforma-lo em um arquivo executavel a qual é compreensível para a máquina e assim ela pode executar sem a necessidade da LP.
+- Arquitetura interpretada: é quando uma linguagem de programação, após gerar seu arquivo fonte a maquina precisa de uma ferramenta especifica da linguagem instalada para ler(interpretar) aquele código e executa-lo, ou seja não precisa de conversão(compilação) para a maquina entender, porem precisa da linguagem instalada no pc.
+- Arquitetura hibrida: utiliza as duas arquiteturas, ou seja precisa de uma ferramenta para compilar e uma ferramenta para interpretar, para assim executar o arquivo final.
+
+* Arquitetura do pyhton:
+- Ele pode ser considerado de arquitetura hibrida pois quando gera o arquivo fonte(extensão ".py"), esse arquivo ele pode ser compilado e executado por uma maquina virtual python, mas não é obrigatorio a compialação e nem necessário q a linguagem de programação esteja instalada, basta apenas a pvm estar instalada que aquele aqruivo fonte já pode ser executado.
+
+
+* Python e seu paradigma:
+- Paradigma nada mais é do que um modelo (abordagem) utilizado na hora de montar as instruções de um codigo a qual está associado a uma linguagem de programação.
+- O python pode ser considerado multiparadigama pois funciona tanto com o paradigma estruturado quanto o orientado a objetos e o funcional, logo não é necessário ter conhecimento aprofundado sobre um determinado paradigma.
+- Aqui será utilizado o paradigma estruturado, que consiste em 3 pilares: sequência, decisão e iteração.
+
+*Python é de alto nível:
+- Ela é conisderada uma linguagem de alto nível pois está mais próxima do desenvolvedor, ou seja é mais fácil de ser entendida pelo homem do que pela maquina (cpu).
+
+* Ambiente de desenvolvimento (IDE):
+- O python ele possui uma ide dentro do próprio prompt de comando do Windows, no entanto não possui uma interface prática logo no curso será utilizado uma IDE que possui interface que será o Pycharm.
+
+

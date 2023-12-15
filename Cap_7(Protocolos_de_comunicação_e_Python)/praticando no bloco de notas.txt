@@ -1,0 +1,42 @@
+#============================= Aplicação Servidor/Cliente TCP =========================#
+
+#-------------- Aplicação servidora:
+
+from socket import *
+
+		# Configuraçãp do servidor #
+sevidor = "127.0.0.1" 
+porta = "43210" 
+obj_socket = socket(AF_INET,SOCK_STREAM) 
+obj_socket.bind(servidor,porta)
+obj_socket.listen(n)
+
+         # Interação com o cliente #
+while TRUE:
+   conexao,cliente = obj_socket.accept()
+   print("CLiente: ",cliente)
+   
+   while TRUE:
+      msg_recebida_do_cliente = str(conexao.recv(1024))
+      print("Mensagem: ",msg_recebida_cliente)
+      enivar_msg = b'Ola cliente'
+      conexao.send(enviar_msg)
+      break
+  conexao.close()
+  
+  
+#-------------- Aplicação servidora:
+from socket import *
+
+servidor = "127.0.0.1"
+porta = "43210"
+
+obj_socket = socket(AF_INET,SOCK_STREAM)  
+objt_socket.conect(servidor,porta)
+msg_enviada_ao_servidor = bytes(input("Digite a mensagem: "),'utf-8')
+obj_socket.send(msg)
+msg_resposta_do_servidor = obj_socket.recv(1024)
+print("Mensagem recebida: ",msg_resposta_do_servidor)
+obj_socket.close()
+
+
